@@ -1,0 +1,122 @@
+/** BASIC */
+
+html, body {
+	height: 100%;
+}
+
+.bg5 {
+	padding: 20px 22px 35px 19px;
+}
+
+/** HEADER */
+
+#header {
+	width: 778px;
+	height: 160px;
+	margin: 0px auto;
+}
+
+#logo {
+	float: left;
+	width: 248px;
+	height: 160px;
+	background: url(images/homepage02.jpg) no-repeat left top;
+}
+
+#logo h1, #logo h2 {
+	display: none;
+}
+
+#menu {
+	float: right;
+	width: 530px;
+	height: 160px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 160px;
+}
+
+#menu a span {
+	display: none;
+}
+
+#menu1 { width: 129px; background: url(images/homepage03.jpg) no-repeat left top; }
+#menu2 { width: 130px; background: url(images/homepage04.jpg) no-repeat left top; }
+#menu3 { width: 126px; background: url(images/homepage05.jpg) no-repeat left top; }
+#menu4 { width: 145px; background: url(images/homepage06.jpg) no-repeat left top; }
+
+/** PAGE */
+
+#page {
+	width: 778px;
+	margin: 0px auto;
+}
+
+.bg1 { background-position: 39px 0px; }
+.bg2 { background-position: 39px 0px; }
+.bg3 { background-position: 39px 100%; }
+
+#content {
+	float: right;
+	width: 416px;
+	padding: 35px 65px 0px 0px;
+	background: url(images/bg05.jpg) no-repeat right top;
+}
+
+#sidebar {
+	float: left;
+	width: 146px;
+	padding: 35px 0px 0px 63px;
+	background: url(images/bg04.jpg) no-repeat left top;
+}
+
+/** BOX1 */
+
+#box1 {
+}
+
+/** BOX2 */
+
+#box2 {	
+	float: left;
+	width: 184px;
+}
+
+/** BOX3 */
+
+#box3 {
+	float: right;
+	width: 184px;
+}
+
+/** BOX4 */
+
+#box4 {
+}
+
+/** BOX5 */
+
+#box5 {
+}
+
+/** FOOTER */
+
+#footer {
+	width: 778px;
+	height: 97px;
+	margin: 0px auto;
+	padding-top: 25px;
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rules xmlns="http://namespaces.plone.org/diazo" xmlns:css="http://namespaces.plone.org/diazo/css">
 
-    <theme href="index.html" />
+    <theme href="homepage.html" />
     <notheme if-path="presentation_view"/>
     <notheme if-path="source_editor.htm"/>
     <notheme if-path="ploneimage.htm"/>
@@ -38,9 +38,9 @@
 	   
 	<prepend css:theme="#personal-tools" css:content="#portal-personaltools" />   
     <prepend css:theme="#page-bgbtm" css:content="#edit-bar" />
-    <prepend css:theme="#canvas" css:content=".portalMessage" />
-    <prepend css:theme="#canvas" css:content="#portal-columns"/>
-    <prepend css:theme="#canvas" css:content="#viewlet-below-content" />
+    <prepend css:theme="#content" css:content=".portalMessage" />
+    <prepend css:theme="#content" css:content="#portal-columns"/>
+    <prepend css:theme="#content" css:content="#viewlet-below-content" />
     
 
 <!--    <rules css:if-content="body.template-search,body.template-search_form,body.template-overview-controlpanel">
