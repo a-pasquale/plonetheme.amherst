@@ -20,43 +20,43 @@ html, body {
 	float: left;
 	width: 248px;
 	height: 160px;
-	background: url(images/homepage02.jpg) no-repeat left top;
+	background: url(../images/homepage02.jpg) no-repeat left top;
 }
 
 #logo h1, #logo h2 {
 	display: none;
 }
 
-#menu {
+#navmenu {
 	float: right;
 	width: 530px;
 	height: 160px;
 }
 
-#menu ul {
+#navmenu ul {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 }
 
-#menu li {
+#navmenu li {
 	display: inline;
 }
 
-#menu a {
+#navmenu a {
 	display: block;
 	float: left;
 	height: 160px;
 }
 
-#menu a span {
+#navmenu a span {
 	display: none;
 }
 
-#menu1 { width: 129px; background: url(images/homepage03.jpg) no-repeat left top; }
-#menu2 { width: 130px; background: url(images/homepage04.jpg) no-repeat left top; }
-#menu3 { width: 126px; background: url(images/homepage05.jpg) no-repeat left top; }
-#menu4 { width: 145px; background: url(images/homepage06.jpg) no-repeat left top; }
+#menu1 { width: 129px; background: url(../images/homepage03.jpg) no-repeat left top; }
+#menu2 { width: 130px; background: url(../images/homepage04.jpg) no-repeat left top; }
+#menu3 { width: 126px; background: url(../images/homepage05.jpg) no-repeat left top; }
+#menu4 { width: 145px; background: url(../images/homepage06.jpg) no-repeat left top; }
 
 /** PAGE */
 
@@ -69,18 +69,18 @@ html, body {
 .bg2 { background-position: 39px 0px; }
 .bg3 { background-position: 39px 100%; }
 
-#content {
+#main {
 	float: right;
 	width: 416px;
 	padding: 35px 65px 0px 0px;
-	background: url(images/bg05.jpg) no-repeat right top;
+	background: url(../images/bg05.jpg) no-repeat right top;
 }
 
 #sidebar {
 	float: left;
 	width: 146px;
 	padding: 35px 0px 0px 63px;
-	background: url(images/bg04.jpg) no-repeat left top;
+	background: url(../images/bg04.jpg) no-repeat left top;
 }
 
 /** BOX1 */
