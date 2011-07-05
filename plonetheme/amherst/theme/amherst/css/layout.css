@@ -27,37 +27,60 @@ html, body {
 	display: none;
 }
 
-#navmenu {
+#navmenu, #portal-megamenu {
 	float: right;
 	width: 530px;
 	height: 160px;
+  background: transparent;
 }
 
-#navmenu ul {
+#navmenu ul, #portal-megamenu ul {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 }
 
-#navmenu li {
+#navmenu li, #portal-megamenu li {
 	display: inline;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 
-#navmenu a {
+#navmenu a, #portal-megamenu ul li a {
 	display: block;
 	float: left;
 	height: 160px;
 }
 
-#navmenu a span {
-	display: none;
+#portal-megamenu li.top-level a {
+  padding-left: 30px;
 }
 
-#menu1 { width: 129px; background: url(../images/homepage03.jpg) no-repeat left top; }
-#menu2 { width: 130px; background: url(../images/homepage04.jpg) no-repeat left top; }
+#menu1, #portal-megamenu li#mm-tl-about-us { width: 129px; background: url(../images/homepage03.jpg) no-repeat left top; }
+#menu2, #portal-megamenu li#mm-tl-for-parents { width: 130px; background: url(../images/homepage04.jpg) no-repeat left top; }
 #menu3 { width: 126px; background: url(../images/homepage05.jpg) no-repeat left top; }
 #menu4 { width: 145px; background: url(../images/homepage06.jpg) no-repeat left top; }
 
+#portal-megamenu li a.menu-item {
+  height: 41px;
+  background: transparent;
+  border-right: 0 solid white;
+  min-width: 6em;
+}
+#portal-megamenu li.top-level .sub {
+  top: 147px;
+}
+
+#portal-megamenu li.active a.menu-item {
+  background: transparent;
+  color: white;
+}
+#portal-megamenu li a.menu-item:hover {
+      background: transparent;
+    }
+.arrowDownAlternative {
+  display: none;
+}
 /** PAGE */
 
 #page {
