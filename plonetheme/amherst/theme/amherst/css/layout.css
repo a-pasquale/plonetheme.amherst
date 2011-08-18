@@ -1,3 +1,8 @@
+/* @override 
+	http://localhost:8080/Plone/++theme++plonetheme.amherst/css/layout.css */
+
+
+
 /** BASIC */
 
 html, body {
@@ -23,8 +28,10 @@ html, body {
 	background: url(../images/homepage02.jpg) no-repeat left top;
 }
 
-#logo h1, #logo h2 {
-	display: none;
+#logo img {
+	float: right;
+	position: relative;
+	right: 10px;
 }
 
 #navmenu, #portal-megamenu {
@@ -53,23 +60,22 @@ html, body {
 }
 
 #portal-megamenu li.top-level a {
-  padding-left: 30px;
+	padding: 0px;
+	margin: 0;
 }
 
 #menu1, #portal-megamenu li#mm-tl-about-us { width: 129px; background: url(../images/homepage03.jpg) no-repeat left top; }
 #menu2, #portal-megamenu li#mm-tl-for-parents { width: 130px; background: url(../images/homepage04.jpg) no-repeat left top; }
-#menu3 { width: 126px; background: url(../images/homepage05.jpg) no-repeat left top; }
-#menu4 { width: 145px; background: url(../images/homepage06.jpg) no-repeat left top; }
+#menu3, #portal-megamenu li#mm-tl-for-kids { width: 126px; background: url(../images/homepage05.jpg) no-repeat left top; }
+#menu4, #portal-megamenu li#mm-tl-for-teens { width: 145px; background: url(../images/homepage06.jpg) no-repeat left top; }
 
 #portal-megamenu li a.menu-item {
   height: 41px;
   background: transparent;
   border-right: 0 solid white;
-  min-width: 6em;
+  min-width: 5em;
 }
-#portal-megamenu li.top-level .sub {
-  top: 147px;
-}
+
 
 #portal-megamenu li.active a.menu-item {
   background: transparent;
@@ -101,11 +107,17 @@ html, body {
 
 #sidebar {
 	float: left;
-	width: 146px;
-	padding: 35px 0px 0px 63px;
+	width: 180px;
+	padding: 0px 0px 0px 50px;
 	background: url(../images/bg04.jpg) no-repeat left top;
 }
 
+#sidebar img {
+	float:  left;
+	right: 13px;
+	position: relative;
+	bottom: 45px;
+}
 /** BOX1 */
 
 #box1 {
@@ -142,4 +154,70 @@ html, body {
 	height: 97px;
 	margin: 0px auto;
 	padding-top: 25px;
+}
+
+/** typography **/
+
+h1 {
+	font: 2em chaloops-medium;
+	color: #0466b1;
+}
+h2 {
+	font: 2em swister-regular,sans-serif;
+	
+}
+
+#portal-megamenu li.top-level a {
+	font: 2em swister-regular,sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.carousel-text {
+	font: 2em swister-regular,sans-serif;
+	color: white;
+}
+
+/** Mega Menu **/
+
+#portal-megamenu li.top-level .subShadow {
+	top: 47px;
+	background: none; /* subShadow has 0.6 opacity when displayed */
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/* Add or change padding/margin move padding to re-place shadow box:
+	 * - for right-bottom shadow add bottom padding and left margin
+	 * - for left-bottom shadow add bottom padding and left negative margin
+	 * - for left-right-bottom shadow, add bottom padding, left negative margin and double right padding
+	 */
+	padding: 0 0 2px 0; 
+	margin: 0 0 0 2px;	
+}
+
+#portal-megamenu li.top-level .sub {
+  top: 147px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 3px 10px #444;
+  border-color: white;
+  border-width: 2px;
+}
+
+/**Carousel**/
+.carousel-text {
+    background-color: rgba(0, 0, 0, 0.40);
+    bottom: 0;
+    left: 0;
+    padding: 2%;
+    position: absolute;
+    width: 96%;
+}
+
+div.carousel-banners {
+	border: 6px solid white;
+	box-shadow: 0px 3px 8px #444;
+}
+
+div.carousel-pager {
+	float: right;
 }
