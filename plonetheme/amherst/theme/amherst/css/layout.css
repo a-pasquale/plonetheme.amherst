@@ -56,7 +56,6 @@ html, body {
 #navmenu a, #portal-megamenu ul li a {
 	display: block;
 	float: left;
-	height: 160px;
 }
 
 #portal-megamenu li.top-level a {
@@ -110,13 +109,24 @@ html, body {
 	width: 180px;
 	padding: 0px 0px 0px 50px;
 	background: url(../images/bg04.jpg) no-repeat left top;
+	position: relative;
+	bottom: 45px;
+	
 }
 
-#sidebar img {
+#sticker {
+	float: left;
+	width: 180px;
+	padding: 0px 0px 0px 50px;
+	position: relative;
+	bottom: 45px;
+	
+}
+
+#sticker img {
 	float:  left;
 	right: 13px;
 	position: relative;
-	bottom: 45px;
 }
 /** BOX1 */
 
@@ -177,6 +187,32 @@ h2 {
 	font: 2em swister-regular,sans-serif;
 	color: white;
 }
+dt.portletHeader, dl.portlet dt a:link {
+	font: 1.3em chaloops-medium,sans-serif;
+	color: #0466b1;
+}
+
+.carousel-pager-item,
+.carousel-pager-button-prev,
+.carousel-pager-button-next {
+	font: 1em chaloops-medium,sans-serif;
+	color: green;
+}
+
+.carousel-pager-item-active:link,
+.carousel-pager-item-active:visited,
+.carousel-pager-item-active .carousel-title {
+    color: red;
+}
+
+#portal-megamenu .sub ul li a {
+	padding: 0px 0 0px 0px;
+	text-decoration: none;
+	color: black;
+	width: 85%;
+	font-size: 1.5em;
+	text-align: left;
+}
 
 /** Mega Menu **/
 
@@ -220,4 +256,23 @@ div.carousel-banners {
 
 div.carousel-pager {
 	float: right;
+}
+
+.carousel-pager-item,
+.carousel-pager-button-prev,
+.carousel-pager-button-next {
+    background-color: transparent;
+    padding: 0.25em 0.5em;
+
+}
+
+/**portlet**/
+dl.portlet dt {
+	background-color: transparent;
+	border-bottom: 1px solid white;
+	padding: 0 0 5px;
+}
+
+dl.portlet{
+	padding-right: 15px;
 }
