@@ -1,6 +1,7 @@
 /* @override 
 	http://localhost:8080/Plone/++theme++plonetheme.amherst/css/layout.css
-	http://64.18.217.181:8910/Plone/++theme++plonetheme.amherst/css/layout.css */
+	http://64.18.217.181:8910/Plone/++theme++plonetheme.amherst/css/layout.css
+	http://beta.amherstpediatrics.net/++theme++plonetheme.amherst/css/layout.css */
 
 
 
@@ -212,6 +213,14 @@ dt.portletHeader, dl.portlet dt a:link {
 	width: 85%;
 	font-size: 1.5em;
 	text-align: left;
+	margin: 0;
+}
+
+#portal-megamenu .sub ul li a:hover {
+	background-color: orange;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 
 /** Mega Menu **/
@@ -281,15 +290,25 @@ dl.portlet{
 /* @group Typography */
 
 #portal-megamenu li.top-level li.collage-item a {
-	font: 1em swister-regular,sans-serif;
+	font: 1.5em swister-regular,sans-serif;
 	color: black;
 	text-align: left;
 }
 
+#portal-megamenu li.top-level li.collage-item p {
+	margin-bottom: 6px;
+	padding-left: 10px;
+}
+
 #portal-megamenu li.top-level li.collage-item h2 a {
-	font: 16px swister-regular,sans-serif;
-	color: black;
+	font: 1em swister-regular,sans-serif;
+	color: #0C5CA3 !important;
 	text-align: left;
 	width: 100%;
+	margin-bottom: 2px;
+}
+
+#portal-megamenu li.top-level li.collage-item h2 {
+	margin-bottom: 4px;
 }
 /* @end */
