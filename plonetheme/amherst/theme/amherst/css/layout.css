@@ -396,6 +396,13 @@ dl.portlet a:link {
 
 /* @group PoPoll */
 
+.portletPopoll ul {
+ list-style-image: none !important;
+ list-style-type: none !important;
+ margin: 0;
+ border-left: 2px solid blue;
+ z-index: 2;
+}
 .portletPopoll h5 {
   padding: 0 0 0.5em 0;
   margin: 0;
@@ -414,12 +421,15 @@ dl.portletPopoll form input.context {
 	margin-top: 5px;
 }
 
-dl.portletPopoll li {
+dl.portletPopoll ul li {
 	font-size: 10px;
 	line-height: 14px;
+	text-indent: 6px;
 }
 dl.portletPopoll li strong {
 	color: green;
+	text-indent: 6px;
+	left: -3px;
 }
 
 dl.portletPopoll li img {
@@ -684,6 +694,7 @@ background: linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,r
 
 /* @end */
 
+/* @group Glossary */
 
 #glossary-definition-popup {
     display: block;
@@ -726,3 +737,25 @@ box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
     font-size: 10px;
 	color: black;
 }
+
+/* @end */
+
+/* @group Person Page */
+
+.portaltype-person div.newsImageContainer img.newsImage {
+	border: 8px solid white;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.47);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.47);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.47);
+}
+
+.portaltype-person #content .documentDescription {
+		font: 1.5em swister-regular,sans-serif;
+		margin-bottom: 10px;
+	}
+	
+	.portaltype-person #content p {
+		
+	}
+
+/* @end */
