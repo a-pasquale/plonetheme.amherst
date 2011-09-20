@@ -524,10 +524,16 @@ dl.portletPopoll li img {
 
 
 /* @end */
+
+div#commenting {
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
 .commentBody {
 position: relative;
 padding:15px;
-margin:1em 0 3em;
+margin:1em 0 5px;
 color:#000;
 background:#f3961c; /* default background for browsers without gradient support */
 /* css3 */
@@ -538,8 +544,12 @@ background:linear-gradient(#f3961c, #f9d835);
 -webkit-border-radius:10px;
 -moz-border-radius:10px;
 border-radius:10px;
-display: block;
+display: inline-block;
 overflow: visible;
+width: 90%;
+-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
 }
 
 
@@ -552,31 +562,41 @@ border-style:solid;
 display:block; 
 width:0;
 top:-15px; /* value = - border-top-width - border-bottom-width */
-right:50px; /* controls horizontal position */
+right:350px; /* controls horizontal position */
 bottom:auto;
 left:auto;
-border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+border-width:0 10px 15px; /* vary these values to change the angle of the vertex */
 border-color:#f3961c transparent;
+}
+
+.commentBody p {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	color: white;
 }
 
 .reply fieldset {
     /* Fix bouncing fieldset when reply form is shown. */
     border: none;
     position:relative;
-    padding:15px;
-    margin:1em 0 3em;
+	margin: 1em 0;
     color:#000;
     background:#f3961c; /* default background for browsers without gradient support */
     /* css3 */
-background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3961c), to(#f9d835));
-background:-moz-linear-gradient(#f3961c, #f9d835);
-background:-o-linear-gradient(#f3961c, #f9d835);
-background:linear-gradient(#f3961c, #f9d835);    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
+background: rgb(183,223,45); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(183,223,45,1) 0%, rgba(227,245,171,1) 53%, rgba(248,255,232,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(183,223,45,1)), color-stop(53%,rgba(227,245,171,1)), color-stop(100%,rgba(248,255,232,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,rgba(248,255,232,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,rgba(248,255,232,1) 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,rgba(248,255,232,1) 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7df2d', endColorstr='#f8ffe8',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,rgba(248,255,232,1) 100%); /* W3C */    -moz-border-radius:10px;
     border-radius:10px;
 	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+	padding: 15px 15px 5px;
 }
 
 
@@ -592,5 +612,61 @@ background:linear-gradient(#f3961c, #f9d835);    -webkit-border-radius:10px;
     bottom:auto;
     left:auto;
     border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
-    border-color:#f3961c transparent;
+    border-color:#b7df2d transparent;
+}
+
+.reply fieldset legend {
+	position: relative;
+	top: 15px;
+	color: #333;
+}
+
+.reply fieldset p {
+	font-size: 11px;
+	text-align: left;
+	font-style: normal;
+	color: #666;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.reply fieldset div.field {
+	margin: 0;
+}
+.reply fieldset label.horizontal {
+	font-size: 12px;
+	color:  #666;
+	font-weight: bold;
+}
+
+.reply fieldset input.text-widget {
+	font-size: 1em;
+	line-height: 1.5px;
+	background-color: none;
+	width: 60%;
+	border: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.reply fieldset form textarea {
+	width: 100%;
+	min-height: 4em;
+	width: 100%;
+	border: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.reply fieldset form div.formControls {
+	margin: 5px 0 0;
+}
+.reply-to-comment-button {
+   /* Hide the reply-to-comment button and show it only if Javascript
+    * is enabled. Since the reply functions rely on jQuery.
+    */
+    display: none;
+    padding: 4px;
 }
