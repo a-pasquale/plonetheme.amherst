@@ -20,6 +20,7 @@
     <before css:theme-children="body" css:content="#plone-cmsui-trigger" />
 <!-- MENU -->
       <replace css:theme="#navmenu ul" css:content="#portal-megamenu"/>
+      <drop css:content="#portal-breadcrumbs" />
 <!--
     <replace css:theme="#menu ul" css:content="#portal-globalnav"/>
     <drop attributes="id" css:content="#portal-globalnav"/>
