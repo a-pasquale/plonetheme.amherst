@@ -47,7 +47,6 @@ body, th, td, input, textarea, select {
 
 p, blockquote, ul, ol, dl {
 	margin-top: 0px;
-	margin-bottom: 1em;
 	text-align: justify;
 	line-height: normal;
 }

@@ -179,15 +179,29 @@ h2 {
 	
 }
 
+.section-welcome-to-amherst-pediatrics #content p {
+		font: 15pt swister-regular,sans-serif;
+	
+}
+
 #portal-megamenu li.top-level a {
 	font: 2em swister-regular,sans-serif;
 	color: black;
 	text-align: center;
 }
 
-.carousel-text {
-	font: 2em swister-regular,sans-serif;
+div.carousel-banner .carousel-text, div.carousel-banner .carousel-text a {
+	font: 24px chaloops-medium,sans-serif;
+	color: #FECC4E;
+	letter-spacing: normal;
+	text-shadow: 0 1px 2px black;
+}
+
+.carousel-text div.carousel-body {
+	font: 12px "Lucida Grande", Lucida, Verdana, sans-serif;
 	color: white;
+	text-transform: uppercase;
+	margin-top: 4px;
 }
 dt.portletHeader, dl.portlet dt a:link {
 	font: 14px chaloops-medium,sans-serif;
@@ -759,3 +773,7 @@ box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
 	}
 
 /* @end */
+
+div#ps_hover div#ps_title {
+	letter-spacing: normal;
+}
