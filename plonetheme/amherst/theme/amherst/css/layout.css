@@ -371,19 +371,20 @@ hr {
 #portal-megamenu li.top-level li.collage-item h2 {
 	margin-bottom: 4px;
 }
-<<<<<<< HEAD
 /* @end */
 
 .highlightedGlossaryTerm {
   display: inline;
 }
-=======
 
 .highlightedGlossaryTerm {
 	cursor: help;
     z-index: 2;
 	background-color: transparent;
-	border-bottom: 1px dotted orange;
+	border-bottom: 2px solid orange;
+	position: relative;
+	color: inherit;
+	font: inherit;
 }
 
 #content a:link,
