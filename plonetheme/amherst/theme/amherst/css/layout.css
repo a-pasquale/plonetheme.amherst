@@ -312,3 +312,7 @@ dl.portlet{
 	margin-bottom: 4px;
 }
 /* @end */
+
+.highlightedGlossaryTerm {
+  display: inline;
+}
