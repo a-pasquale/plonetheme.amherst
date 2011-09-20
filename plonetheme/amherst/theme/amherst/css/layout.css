@@ -102,7 +102,7 @@ html, body {
 #main {
 	float: right;
 	width: 416px;
-	padding: 35px 65px 0px 0px;
+	padding: 10px 65px 0px 0px;
 	background: url(../images/bg05.jpg) no-repeat right top;
 }
 
@@ -386,6 +386,7 @@ dl.portlet a:link {
 }
 /* @end */
 
+/* @group PoPoll */
 
 .portletPopoll h5 {
   padding: 0 0 0.5em 0;
@@ -415,4 +416,181 @@ dl.portletPopoll li strong {
 
 dl.portletPopoll li img {
 	padding-right: 2px;
+}
+
+/* @end */
+
+/* @group Blog View Template */
+
+.template-blog_view div#parent-fieldname-text {
+	display: inline-block;
+}
+
+.template-blog_view div#parent-fieldname-text img {
+	border: 8px solid white;
+	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry {
+	position:relative;
+	padding:10px;
+	margin:1em 0 3em;
+	color:#fff;
+	background:#075698; /* default background for browsers without gradient support */
+	/* css3 */
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+	background:-moz-linear-gradient(#2e88c4, #075698);
+	background:-o-linear-gradient(#2e88c4, #075698);
+	background:linear-gradient(#2e88c4, #075698);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.51);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.51);
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.51);
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry:after {
+	content:"";
+	position:absolute;
+	bottom:-20px; /* value = - border-top-width - border-bottom-width */
+	left:50px; /* controls horizontal position */
+	border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
+	border-style:solid;
+	border-color:#075698 transparent; 
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry a img.tileImage {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin: 0 !important;
+	padding: 0 3px 0 0;
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry h2.tileHeadline a {
+	color: white !important;
+	text-shadow: 0 1px 2px black;
+	letter-spacing: normal;
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry div.documentByLine, .template-blog_view div.tileItem.contenttype-blog-entry div.documentByLine span a {
+	color: silver !important;
+	font-size:10px;
+	line-height: 12px;
+}
+.template-blog_view div.tileItem.contenttype-blog-entry a.permalink {
+	display: none;
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry div.comment-info a {
+	color: orange !important;
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry p.tileBody  {
+	padding-top: 10px;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: left;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.template-blog_view div.tileItem.contenttype-blog-entry p.tileFooter a {
+	color: #68AE0F !important;
+}
+
+/* @end */
+
+/* @group Blog Item */
+
+.template-blogentry_view  div#parent-fieldname-text {
+	margin-top: 10px;
+}
+
+.template-blogentry_view div.newsImageContainer img.newsImage {
+	border: 8px solid white;
+	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.52);
+	
+}
+
+
+/* @end */
+.commentBody {
+position: relative;
+padding:15px;
+margin:1em 0 3em;
+color:#000;
+background:#f3961c; /* default background for browsers without gradient support */
+/* css3 */
+background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3961c), to(#f9d835));
+background:-moz-linear-gradient(#f3961c, #f9d835);
+background:-o-linear-gradient(#f3961c, #f9d835);
+background:linear-gradient(#f3961c, #f9d835);
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+display: block;
+overflow: visible;
+}
+
+
+.commentBody:after {
+content:"";
+position:absolute;
+left:50px; /* controls horizontal position */
+border-style:solid;
+/* reduce the damage in FF3.0 */
+display:block; 
+width:0;
+top:-15px; /* value = - border-top-width - border-bottom-width */
+right:50px; /* controls horizontal position */
+bottom:auto;
+left:auto;
+border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+border-color:#f3961c transparent;
+}
+
+.reply fieldset {
+    /* Fix bouncing fieldset when reply form is shown. */
+    border: none;
+    position:relative;
+    padding:15px;
+    margin:1em 0 3em;
+    color:#000;
+    background:#f3961c; /* default background for browsers without gradient support */
+    /* css3 */
+background:-webkit-gradient(linear, 0 0, 0 100%, from(#f3961c), to(#f9d835));
+background:-moz-linear-gradient(#f3961c, #f9d835);
+background:-o-linear-gradient(#f3961c, #f9d835);
+background:linear-gradient(#f3961c, #f9d835);    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+.reply fieldset:after {
+	content:"";
+	position:absolute;
+	border-style:solid;
+	border-color:#f3961c transparent;
+    display:block; 
+    width:0;
+    top:-3px; /* value = - border-top-width - border-bottom-width */
+    right:50px; /* controls horizontal position */
+    bottom:auto;
+    left:auto;
+    border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+    border-color:#f3961c transparent;
 }
