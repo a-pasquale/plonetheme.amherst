@@ -122,7 +122,7 @@ html, body {
 	padding: 0px 0px 0px 50px;
 	position: relative;
 	bottom: 45px;
-	
+	margin-bottom: 10px;
 }
 
 #sticker img {
@@ -190,8 +190,30 @@ h2 {
 	color: white;
 }
 dt.portletHeader, dl.portlet dt a:link {
-	font: 1.3em chaloops-medium,sans-serif;
-	color: #0466b1;
+	font: 14px chaloops-medium,sans-serif;
+	color: #755b28;
+	padding: 5px;
+	text-align: center;
+}
+
+div#sidebar dl.portlet {
+	padding: 0;
+	border: 1px solid #cebc82;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+}
+
+dl.portlet dt.portletHeader {
+padding-bottom: 0;
+	background-color: #cebc82;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+border-bottom-style: none;
 }
 
 .carousel-pager-item,
@@ -286,8 +308,46 @@ dl.portlet{
 	padding-right: 15px;
 }
 
+.template-folder_summary_view.portaltype-topic div#parent-fieldname-text {
+	margin-bottom: 0px;
+}
+
+.template-folder_summary_view.portaltype-topic div.tileItem {
+	border-bottom: 1px dotted silver;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.template-folder_summary_view.portaltype-topic div.tileItem h2, .template-folder_summary_view.portaltype-topic div.tileItem p.tileBody {
+	margin: 0 !important;
+	padding: 0;
+	
+}
+
+dl.portlet dd.portletItem,
+dl.portlet dd.portletFooter,
+dl.portletError dd {
+    padding: 5px 0;
+	border-bottom: 1px dotted #cebc82;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+dl.portletCollection span.portletItemDetails {
+	font-size: 10px;
+	letter-spacing: normal;
+}
+
+dl.portletCollection dd.portletItem a.tile, dl.portletCollection dd.portletFooter a{
+	color: #755b28;
+}
 
 /* @group Typography */
+
+hr {
+	border-bottom: 1px solid gray;
+	display: block;
+}
 
 #portal-megamenu li.top-level li.collage-item a {
 	font: 1.5em swister-regular,sans-serif;
@@ -311,4 +371,48 @@ dl.portlet{
 #portal-megamenu li.top-level li.collage-item h2 {
 	margin-bottom: 4px;
 }
+
+.highlightedGlossaryTerm {
+	cursor: help;
+    z-index: 2;
+	background-color: transparent;
+	border-bottom: 1px dotted orange;
+}
+
+#content a:link,
+dl.portlet a:link {
+    color: #205c90;
+    border-bottom: none;
+}
 /* @end */
+
+
+.portletPopoll h5 {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+dl.portletPopoll form label {
+	padding-left: 5px;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 2px;
+}
+
+dl.portletPopoll form input.context {
+	margin-top: 5px;
+}
+
+dl.portletPopoll li {
+	font-size: 10px;
+	line-height: 14px;
+}
+dl.portletPopoll li strong {
+	color: green;
+}
+
+dl.portletPopoll li img {
+	padding-right: 2px;
+}

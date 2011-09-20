@@ -1,5 +1,6 @@
 /* @override 
-	http://64.18.217.181:8096/Plone/++theme++plonetheme.amherst/css/default.css */
+	http://64.18.217.181:8096/Plone/++theme++plonetheme.amherst/css/default.css
+	http://beta.amherstpediatrics.net/++theme++plonetheme.amherst/css/default.css */
 
 /** BASIC */
 
@@ -19,7 +20,7 @@ form {
 /** HEADINGS */
 
 h1, h2 {
-	margin: 0px 0px 15px 0px;
+	margin: 0px 0px 0px 0px;
 	font: normal 2em "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #000000;
 }
@@ -162,8 +163,6 @@ img.right {
 	float: right;
 	margin: 3px 0px 0px 15px;
 }
-
-hr { display: none; }
 
 .hr1 {
 	height: 1px;
