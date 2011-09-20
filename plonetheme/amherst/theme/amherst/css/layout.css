@@ -619,10 +619,9 @@ background: linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,r
     bottom:auto;
     left:auto;
     border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
-<<<<<<< HEAD
-    border-color:#f3961c transparent;
+    border-color:#b7df2d transparent;
 }
-}
+
 
 .reply fieldset legend {
 	position: relative;
