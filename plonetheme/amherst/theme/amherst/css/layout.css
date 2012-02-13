@@ -220,7 +220,7 @@ border-radius: 6px;
 
 dl.portlet dt.portletHeader {
 padding-bottom: 0;
-background: #f5f5f5 url('../images/ribbon-green.png') no-repeat left top;
+background: transparent url('../images/ribbon-green.png') no-repeat left top;
 -webkit-border-top-left-radius: 6px;
 -webkit-border-top-right-radius: 6px;
 -moz-border-radius-topleft: 6px;
