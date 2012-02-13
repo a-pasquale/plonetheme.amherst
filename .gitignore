@@ -1,3 +1,13 @@
 *.pyc
 .DS_Store?
 *.egg-info
+
+plonetheme/amherst/theme/amherst/.DS_Store
+
+plonetheme/amherst/.DS_Store
+
+plonetheme/amherst/theme/.DS_Store
+
+plonetheme/.DS_Store
+
+.DS_Store
