@@ -33,7 +33,7 @@ html, body {
 #logo img {
 	float: right;
 	position: relative;
-	right: 10px;
+	right: 20px;
 }
 
 #navmenu, #portal-megamenu {
@@ -112,22 +112,23 @@ html, body {
 	padding: 0px 0px 0px 50px;
 	background: url(../images/bg04.jpg) no-repeat left top;
 	position: relative;
-	bottom: 45px;
+	bottom: 75px;
 	
 }
 
 #sticker {
 	float: left;
 	width: 180px;
-	padding: 0px 0px 0px 50px;
+	padding: 0px 0px 0px 40px;
 	position: relative;
-	bottom: 45px;
-	margin-bottom: 10px;
+	display: block;
+	top: -40px;
+	margin-bottom: 0px;
 }
 
 #sticker img {
 	float:  left;
-	right: 13px;
+	right: 12px;
 	position: relative;
 }
 /** BOX1 */
@@ -180,7 +181,7 @@ h2 {
 }
 
 .section-welcome-to-amherst-pediatrics #content p {
-		font: 15pt swister-regular,sans-serif;
+		font: 1.5em/1em swister-regular,sans-serif;
 	
 }
 
@@ -204,31 +205,28 @@ div.carousel-banner .carousel-text, div.carousel-banner .carousel-text a {
 	margin-top: 4px;
 }
 dt.portletHeader, dl.portlet dt a:link {
-	font: 14px chaloops-medium,sans-serif;
-	color: #755b28;
+	font: 15px chaloops-medium,sans-serif;
+	color: #FECC4E;
 	padding: 5px;
-	text-align: center;
+	text-align: left;
+	text-shadow: 0 0px 3px black;
+	letter-spacing: 1px;
 }
 
 div#sidebar dl.portlet {
 	padding: 0;
-	border: 1px solid #cebc82;
--webkit-border-radius: 6px;
--moz-border-radius: 6px;
-border-radius: 6px;
+	border: none;
 }
 
 dl.portlet dt.portletHeader {
-padding-bottom: 0;
-background: transparent url('../images/ribbon-green.png') no-repeat left top;
--webkit-border-top-left-radius: 6px;
--webkit-border-top-right-radius: 6px;
--moz-border-radius-topleft: 6px;
--moz-border-radius-topright: 6px;
-border-top-left-radius: 6px;
-border-top-right-radius: 6px;
-border-bottom-style: none;
+	padding-bottom: 0;
+	border: none;
+	padding: 10px 0 0 25px;
+	background: transparent url('http://localhost:8080/++theme++plonetheme.amherst/images/ribbon_green.png') no-repeat left top;
+	height: 33px;
+	margin: 0 0 0 -26px;
 }
+
 
 .carousel-pager-item,
 .carousel-pager-button-prev,
@@ -355,14 +353,11 @@ div.carousel-pager {
 }
 
 /**portlet**/
-dl.portlet dt {
-	background-color: transparent;
-	border-bottom: 1px solid white;
-	padding: 0 0 5px;
-}
+
 
 dl.portlet{
 	padding-right: 15px;
+	margin-bottom: 0px;
 }
 
 .template-folder_summary_view.portaltype-topic div#parent-fieldname-text {
@@ -384,7 +379,7 @@ dl.portlet{
 dl.portlet dd.portletItem,
 dl.portlet dd.portletFooter,
 dl.portletError dd {
-    padding: 5px 0;
+    padding: 2px 0;
 	border-bottom: 1px dotted #cebc82;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -395,9 +390,14 @@ dl.portletCollection span.portletItemDetails {
 	letter-spacing: normal;
 }
 
-dl.portletCollection dd.portletItem a.tile, dl.portletCollection dd.portletFooter a{
+dl.portletCollection dd.portletItem a.tile {
 	color: #755b28;
 }
+
+dl.portlet dd.portletFooter a {
+		color: #755b28;
+		font: normal 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	}
 
 /* @group Typography */
 
