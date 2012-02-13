@@ -707,7 +707,7 @@ border-color:#f3961c transparent;
     /* Fix bouncing fieldset when reply form is shown. */
     border: none;
     position:relative;
-	margin: 1em 0;
+	margin: 0 0;
     color:#000;
     background:#f3961c; /* default background for browsers without gradient support */
     /* css3 */
@@ -723,7 +723,7 @@ background: linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,r
 	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
-	padding: 15px 15px 5px;
+	padding: 15px;
 }
 
 
@@ -877,4 +877,32 @@ z-index: 100 !important;
 
 div#ps_hover div#ps_title {
 	letter-spacing: normal;
+}
+
+fieldset.livesearchContainer {
+	position: absolute;
+	border: 1px solid #F1DA36;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+background: rgb(254,252,234); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(241,218,54,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+	
+}
+
+legend#livesearchLegend {
+	background: #F1DA36;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color:  red;
+	padding: 4px 10px;
+	font: normal 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
