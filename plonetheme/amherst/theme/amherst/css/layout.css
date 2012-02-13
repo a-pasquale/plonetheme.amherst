@@ -220,7 +220,7 @@ border-radius: 6px;
 
 dl.portlet dt.portletHeader {
 padding-bottom: 0;
-	background-color: #cebc82;
+background: #f5f5f5 url('../images/ribbon-green.png') no-repeat left top;
 -webkit-border-top-left-radius: 6px;
 -webkit-border-top-right-radius: 6px;
 -moz-border-radius-topleft: 6px;
@@ -729,7 +729,7 @@ background: linear-gradient(top, rgba(183,223,45,1) 0%,rgba(227,245,171,1) 53%,r
 
 .reply fieldset:after {
 	content:"";
-	position:absolute;
+	position: absolute;
 	border-style:solid;
 	border-color:#f3961c transparent;
     display:block; 
