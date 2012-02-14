@@ -204,13 +204,18 @@ div.carousel-banner .carousel-text, div.carousel-banner .carousel-text a {
 	text-transform: uppercase;
 	margin-top: 4px;
 }
-dt.portletHeader, dl.portlet dt a:link {
+dt.portletHeader a, dt.portletHeader a:visited, dl.portlet dt a:link {
 	font: 15px chaloops-medium,sans-serif;
-	color: #FECC4E;
+	color: #FECC4E !important;
 	padding: 5px;
 	text-align: left;
 	text-shadow: 0 0px 3px black;
 	letter-spacing: 1px;
+}
+
+dt.portletHeader a span:hover, dl.portlet dt.portletHeader a:hover {
+	color:  #BD282E !important;
+	text-shadow: none;
 }
 
 div#sidebar dl.portlet {
