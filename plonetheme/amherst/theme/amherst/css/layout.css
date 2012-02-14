@@ -204,7 +204,7 @@ div.carousel-banner .carousel-text, div.carousel-banner .carousel-text a {
 	text-transform: uppercase;
 	margin-top: 4px;
 }
-dt.portletHeader a, dt.portletHeader a:visited, dl.portlet dt a:link {
+dl.portlet dt.portletHeader a, dl.portlet dt.portletHeader a:visited, dl.portlet dt.portletHeader a:link {
 	font: 15px chaloops-medium,sans-serif;
 	color: #FECC4E !important;
 	padding: 5px;
