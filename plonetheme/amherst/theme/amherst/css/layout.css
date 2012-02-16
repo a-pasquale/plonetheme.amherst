@@ -213,7 +213,7 @@ dl.portlet dt.portletHeader a, dl.portlet dt.portletHeader a:visited, dl.portlet
 	letter-spacing: 1px;
 }
 
-dt.portletHeader a span:hover, dl.portlet dt.portletHeader a:hover {
+dt.portletHeader a span:hover, dl.portlet dt.portletHeader a:hover, dt.portletHeader a:visited {
 	color:  #BD282E !important;
 	text-shadow: none;
 }
