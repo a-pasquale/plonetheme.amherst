@@ -183,6 +183,7 @@ h2 {
 
 .section-welcome-to-amherst-pediatrics #content p {
 		font: 1.5em/1em swister-regular,sans-serif;
+		text-align: left;
 	
 }
 
@@ -349,7 +350,10 @@ div.carousel-banners {
 }
 
 div.carousel-pager {
-	float: right;
+position: absolute;
+top: 280px;
+left: 320px;
+font-size: 11px;
 }
 
 .carousel-pager-item,
