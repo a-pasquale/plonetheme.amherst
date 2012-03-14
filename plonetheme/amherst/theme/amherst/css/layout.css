@@ -942,5 +942,6 @@ margin:0;
 dd.carousel .scrollable .items .tileItem {
 float: left;
 width:  160px !important;
+background: transparent url('../images/paint-splatter.png') no-repeat center top;
 }
 /* @end */
