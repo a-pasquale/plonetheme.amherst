@@ -112,7 +112,7 @@ html, body {
 	padding: 0px 0px 0px 50px;
 	background: url(../images/bg04.jpg) no-repeat left top;
 	position: relative;
-	bottom: 75px;
+	top: -80px;
 	font-size: 90%;
 	
 }
