@@ -930,6 +930,19 @@ dd.carousel img {
 dd.carousel p {
 	margin: 0;
 	text-align: left;
+	color:  #BD282E;
+	
+}
+
+dd.carousel div.items p.tileFooter    {
+	color:  #BD282E;
+	text-align: right;
+	font-size: 90%;
+}
+
+dd.carousel div.items p.tileFooter a  {
+	color:  #666;
+	text-transform: uppercase;
 }
 .portletCarouselWrapper div.scrollable {
 width: 150px;
@@ -942,6 +955,11 @@ margin:0;
 dd.carousel .scrollable .items .tileItem {
 float: left;
 width:  160px !important;
-background: transparent url('../images/paint-splatter.png') no-repeat center top;
-}
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 80%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(80%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* IE10+ */
+background: radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 /* @end */
