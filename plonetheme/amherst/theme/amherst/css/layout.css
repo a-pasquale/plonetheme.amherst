@@ -113,6 +113,7 @@ html, body {
 	background: url(../images/bg04.jpg) no-repeat left top;
 	position: relative;
 	bottom: 75px;
+	font-size: 90%;
 	
 }
 
@@ -204,7 +205,7 @@ div.carousel-banner .carousel-text, div.carousel-banner .carousel-text a {
 	text-transform: uppercase;
 	margin-top: 4px;
 }
-dl.portlet dt.portletHeader a, dl.portlet dt.portletHeader a:visited, dl.portlet dt.portletHeader a:link {
+dt.portletHeader, dl.portlet dt.portletHeader a, dl.portlet dt.portletHeader a:visited, dl.portlet dt.portletHeader a:link {
 	font: 15px chaloops-medium,sans-serif;
 	color: #FECC4E !important;
 	padding: 5px;
@@ -212,7 +213,9 @@ dl.portlet dt.portletHeader a, dl.portlet dt.portletHeader a:visited, dl.portlet
 	text-shadow: 0 0px 3px black;
 	letter-spacing: 1px;
 }
-
+#sidebar dl.portletCumulusPortlet dt.portletHeader {
+	padding: 15px 20px 0 20px;
+}
 dt.portletHeader a span:hover, dl.portlet dt.portletHeader a:hover, dt.portletHeader a:visited {
 	color:  #BD282E !important;
 	text-shadow: none;
@@ -911,3 +914,33 @@ legend#livesearchLegend {
 	padding: 4px 10px;
 	font: normal 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
+
+/* @group Carousel Portlet */
+dl.portlet dd.carousel.portletItem {
+margin: 0;
+padding: 0;/* *//
+border: none;
+padding: 0;
+}
+
+dd.carousel img {
+	display: none;
+}
+
+dd.carousel p {
+	margin: 0;
+	text-align: left;
+}
+.portletCarouselWrapper div.scrollable {
+width: 150px;
+padding: 0 5px;
+}
+dd.carousel div.scrollable div.items div.itemPadding {
+margin:0;
+}
+
+dd.carousel .scrollable .items .tileItem {
+float: left;
+width:  160px !important;
+}
+/* @end */
