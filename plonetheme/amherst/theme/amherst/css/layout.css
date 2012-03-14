@@ -230,12 +230,15 @@ div#sidebar dl.portlet {
 dl.portlet dt.portletHeader {
 	padding-bottom: 0;
 	border: none;
-	padding: 10px 0 0 25px;
+	padding: 0 0 0 25px;
 	background: transparent url('/++theme++plonetheme.amherst/images/ribbon_green.png') no-repeat left top;
-	height: 33px;
+	height: 43px;
 	margin: 0 0 0 -26px;
 }
 
+dl.portlet dt.portletHeader a {
+	padding: 15px 0 0 0 !important;
+}
 
 .carousel-pager-item,
 .carousel-pager-button-prev,
@@ -941,7 +944,7 @@ dd.carousel p {
 }
 
 dd.carousel h2 {
-	font: 24px/18px swister-regular,sans-serif;
+	font: 24px/20px swister-regular,sans-serif;
 	
 }
 dd.carousel div.items p.tileFooter    {
@@ -965,11 +968,4 @@ margin:0;
 dd.carousel .scrollable .items .tileItem {
 float: left;
 width:  160px !important;
-background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 80%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(80%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* IE10+ */
-background: radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 80%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 /* @end */
