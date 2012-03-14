@@ -407,8 +407,9 @@ dl.portletCollection dd.portletItem a.tile {
 }
 
 dl.portlet dd.portletFooter a {
-		color: #755b28;
+		color: #666;
 		font: normal 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+		text-transform: uppercase;
 	}
 
 /* @group Typography */
@@ -921,10 +922,11 @@ legend#livesearchLegend {
 
 /* @group Carousel Portlet */
 dl.portlet dd.carousel.portletItem {
-margin: 0;
+margin: -5px 0 -10px 0;
 padding: 0;/* *//
 border: none;
 padding: 0;
+border: none;
 }
 
 dd.carousel img {
@@ -938,6 +940,10 @@ dd.carousel p {
 	
 }
 
+dd.carousel h2 {
+	font: 24px/18px swister-regular,sans-serif;
+	
+}
 dd.carousel div.items p.tileFooter    {
 	color:  #BD282E;
 	text-align: right;
