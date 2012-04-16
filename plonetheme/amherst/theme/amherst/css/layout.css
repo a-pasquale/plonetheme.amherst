@@ -215,7 +215,7 @@ div.carousel-banner .carousel-text, div.carousel-banner .carousel-text a {
 	text-transform: uppercase;
 	margin-top: 4px;
 }
-dt.portletHeader, dl.portlet dt.portletHeader a, dl.portlet dt.portletHeader a:visited, dl.portlet dt.portletHeader a:link {
+dt.portletHeader, dl.portlet dt.portletHeader a span, dl.portlet dt.portletHeader a:visited, dl.portlet dt.portletHeader a:link {
 	font: 15px chaloops-medium,sans-serif;
 	color: #FECC4E !important;
 	padding: 5px;
@@ -223,9 +223,11 @@ dt.portletHeader, dl.portlet dt.portletHeader a, dl.portlet dt.portletHeader a:v
 	text-shadow: 0 0px 3px black;
 	letter-spacing: 1px;
 }
-#sidebar dl.portletCumulusPortlet dt.portletHeader {
-	padding: 15px 20px 0 20px;
+
+dl.portlet dt.portletHeader span, dl.portlet.portletCumulusPortlet dt.portletHeader {
+	line-height: 46px;
 }
+
 dt.portletHeader a span:hover, dl.portlet dt.portletHeader a:hover, dt.portletHeader a:visited {
 	color:  #BD282E !important;
 	text-shadow: none;
